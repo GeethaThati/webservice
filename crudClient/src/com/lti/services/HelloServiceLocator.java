@@ -10,6 +10,9 @@ package com.lti.services;
 public class HelloServiceLocator extends client.Service implements com.lti.services.HelloService {
 
     public HelloServiceLocator() {
+    	
+    	System.out.println("hello");
+    	
     }
 
 
