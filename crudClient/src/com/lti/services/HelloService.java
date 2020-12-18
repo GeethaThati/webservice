@@ -7,10 +7,10 @@
 
 package com.lti.services;
 
-public interface HelloService extends javax.xml.rpc.Service {
+public interface HelloService extends Service {
     public java.lang.String getHelloAddress();
 
-    public com.lti.services.Hello getHello() throws javax.xml.rpc.ServiceException;
+    public com.lti.services.Hello getHello() throws ServiceException;
 
-    public com.lti.services.Hello getHello(java.net.URL portAddress) throws javax.xml.rpc.ServiceException;
+    public com.lti.services.Hello getHello(java.net.URL portAddress) throws ServiceException;
 }
