@@ -12,7 +12,7 @@ public class HelloServiceLocator extends client.Service implements com.lti.servi
     public HelloServiceLocator() {
     	
 
-    	System.out.println("hai");
+    	String name = "geetha";
 
     	
     }
