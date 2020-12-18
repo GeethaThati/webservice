@@ -11,7 +11,7 @@ public class HelloServiceLocator extends client.Service implements com.lti.servi
 
     public HelloServiceLocator() {
     	
-    	int i =10;
+    	String name = "anjali";
     	
     }
 
