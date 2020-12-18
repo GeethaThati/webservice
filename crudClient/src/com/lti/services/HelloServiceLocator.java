@@ -7,13 +7,13 @@
 
 package com.lti.services;
 
-public class HelloServiceLocator extends org.apache.axis.client.Service implements com.lti.services.HelloService {
+public class HelloServiceLocator extends client.Service implements com.lti.services.HelloService {
 
     public HelloServiceLocator() {
     }
 
 
-    public HelloServiceLocator(org.apache.axis.EngineConfiguration config) {
+    public HelloServiceLocator(EngineConfiguration config) {
         super(config);
     }
 
